@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="The Map View"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="225dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This is your app in a map view. Your map should initially open up to your current location, and will behave with normal Google map functionalities. Your friends will show up as markers that you can click on to see their current information."
+            android:id="@+id/textView"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.79" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Swipe Left to Continue"
+                android:id="@+id/textView2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

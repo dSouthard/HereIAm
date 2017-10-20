@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="The Menu"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="225dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Here is what you can do in the settings menu: you can change your user display name or your user profile image. You can invite friends, or stop following friends by clicking on their profiles in the list below. You can also log out."
+            android:id="@+id/textView"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.79" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Swipe to Continue"
+                android:id="@+id/textView2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

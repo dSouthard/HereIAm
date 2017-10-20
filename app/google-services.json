@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "348944789907",
+    "firebase_url": "https://here-i-am-1f9a0.firebaseio.com",
+    "project_id": "here-i-am-1f9a0",
+    "storage_bucket": "here-i-am-1f9a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348944789907:android:335b30cee95c7fc1",
+        "android_client_info": {
+          "package_name": "com.ecen5673.diana.hereiam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348944789907-roqevh226hhq2oqv94cqnkinj3u16pv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZxbNCNHD4CepQgCyh_meQaA1rgGzqjKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

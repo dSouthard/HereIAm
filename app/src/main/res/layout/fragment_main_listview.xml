@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <include android:layout_width="fill_parent"
+        layout="@layout/listview_item_record"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/your_connected_friends"
+        android:id="@+id/connectedFriendsLabel"
+        android:layout_gravity="center"
+        android:elegantTextHeight="true"
+        android:gravity="center_horizontal"
+        android:background="@color/darkteal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordListView"
+        android:clickable="true"
+        android:fastScrollEnabled="true"
+        android:headerDividersEnabled="true"/>
+
+</LinearLayout>

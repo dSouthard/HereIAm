@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/recordUserProfile"
+        android:src="@drawable/profile"
+        android:contentDescription="@string/your_profile_image" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordLinearLayout"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/darth_vader"
+                android:id="@+id/recordNameField"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1655 E Way Ave, New York NY"
+            android:id="@+id/recordAddress"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/default_location"
+            android:id="@+id/recordLocationField"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Walking"
+            android:id="@+id/recordActivity"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/last_updated"
+                android:id="@+id/recordUpdateTimeFieldLabel"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/default_time"
+                android:id="@+id/recordUpdateTimeField" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
